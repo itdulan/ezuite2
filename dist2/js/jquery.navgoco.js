@@ -226,7 +226,6 @@
 					self._toggle(list[idx], open);
 				}
 			}
-			self._save();
 		},
 		/**
 		 * Removes instance from JQuery data cache and unbinds events.
