@@ -53,6 +53,9 @@ collections:
   report:
     title: Report
     position: 14
+  " ":
+   title: " "
+   position: 0
     
 plugins:
   - jekyll-sitemap
