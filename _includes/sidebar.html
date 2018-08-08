@@ -69,7 +69,7 @@ $(document).ready(function() {
 				<li>
 				{% assign sorted_docs = collection.docs | sort: "position" %}
 					{% for doc in sorted_docs %}
-							<a href="{{ site.baseurl }}/{% if page.url != '/' %}/{% endif %}#{{ doc.id | replace: '/', '' | replace: '.', '' }}">
+							<a href="{{ site.baseurl }}{% if page.url != '/' %}/{% endif %}#{{ doc.id | replace: '/', '' | replace: '.', '' }}">
 							{{ doc.title }}
 							</a>
 							</li>
